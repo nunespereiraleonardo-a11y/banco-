@@ -21,12 +21,12 @@ class Conta:
             print(f"Depósito de R$ {valor:.2f} realizado com sucesso.")
 
     def ver_saldo(self):
-        print(f"Saldo atual: R$ {self.saldo:.2f}") 
+           print(f"Saldo atual: R$ {self.saldo:.2f}") 
     def transferencia (self, valor)
-  if valor <= 0:
-    print("O valor de transferencia deve ser maior que zero.")
+       if valor <= 0:
+           print("O valor de transferencia deve ser maior que zero.")
     else:
-  self.saldo += valor
-print 
+          self.saldo += valor
+          print(f"Transferencia de R$ {valor:.2f}" realizada com sucesso.")
 
   
